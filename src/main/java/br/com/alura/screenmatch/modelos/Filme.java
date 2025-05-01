@@ -11,7 +11,7 @@ public class Filme extends Titulo implements Classificavel {
 
     @Override
     public int getAnoDeLancamento() {
-        return 0;
+        return anoDeLancamento;
     }
 
     public String getDiretor() {
